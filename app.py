@@ -5,7 +5,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 app.config["MONGO_URI"] = "mongodb+srv://saivinoth94:SOpXoLi4R8wIh6hO@cluster0.qwcfcro.mongodb.net/todo?retryWrites=true&w=majority"
-CORS(app, resources={r"/api/*": {"origins": "https://sprightly-babka-b97959.netlify.app/"}})
+CORS(app)
 mongo = PyMongo(app)
 todo_collection = mongo.db.todos
 
