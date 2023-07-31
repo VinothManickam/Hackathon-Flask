@@ -8,8 +8,10 @@ This is a Flask API for Todo app
 1. Clone the repository:
    
 ```bash
-   git clone https://github.com/PeopleConnectMinion/pricepalapi.git
-   ```
+https://github.com/VinothManickam/Hackathon-Flask.git
+
+```
+
 2. Clone the repository:
 
 `pip install -r requirements.txt`
